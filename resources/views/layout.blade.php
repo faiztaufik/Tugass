@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>ngentod</title>
+      <title>Tugas</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -59,7 +59,7 @@
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                            <ul class="navbar-nav mr-auto">
                               <li class="nav-item active">
-                                 <a class="nav-link" href="index.html">Home</a>
+                                 <a class="nav-link" href="{{url('index')}}">Home</a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="{{ url('about')}}">About</a>
@@ -68,13 +68,13 @@
                                  <a class="nav-link" href="{{url('computer')}}">Computer</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="laptop.html">Laptop</a>
+                                 <a class="nav-link" href="{{url ('laptop')}}">Laptop</a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="product.html">Products</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="contact.html">Contact Us</a>
+                                 <a class="nav-link" href="{{url ('contact')}}">Contact Us</a>
                               </li>
                               <li class="nav-item d_none">
                                  <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>

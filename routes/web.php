@@ -23,4 +23,16 @@ Route::get('/about', function () {
 });
 Route::get('/computer', function () {
     return view('computer');
-})->name('computer');
+});
+Route::get('/index', function () {
+    return view('index');
+});
+Route::get('/laptop', function () {
+    return view('laptop');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/product', function () {
+    return view('product');
+});
